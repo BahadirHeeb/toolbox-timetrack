@@ -1,0 +1,45 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "581f4cfb1c0d30f4a736851936604a09",
+    "packages": [
+        {
+            "name": "schoetex/toolbox-api",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BahadirArac/toolbox-api.git",
+                "reference": "94a7699613583ae98e6685f517c7f5f5b5d4dee2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "schoetex\\toolboxApi\\": "src"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Bahadir Heeb",
+                    "email": "b.heeb@schoetex.de"
+                }
+            ],
+            "description": "API Basis für die Toolbox Module",
+            "time": "2020-05-11T13:56:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

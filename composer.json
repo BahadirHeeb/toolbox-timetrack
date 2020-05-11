@@ -1,0 +1,38 @@
+{
+  "name": "schoetex/toolbox-timetrack",
+  "description": "Zeiterfassung",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Bahadir Heeb",
+      "email": "b.heeb@schoetex.de"
+    }
+  ],
+  "require": {
+    "schoetex/toolbox-api": "*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "schoetex\\toolboxTimetrack\\": "src"
+    }
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/BahadirArac/toolbox-api.git"
+    }
+  ]
+}
